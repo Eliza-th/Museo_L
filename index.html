@@ -1,0 +1,268 @@
+<!--comenzamos creando la estrucura basica
+de un documento html escribiendo <html y 
+teclenado enter para autocompletar, lo que creara
+la estructura que se llenara como se menciona a continuación...-->
+
+<!--indica el tipo de docuemnto-->
+<!DOCTYPE html> 
+<!--dentro de l etiqueta html esta todo el contenido del documento html-->
+<html> 
+<!------------encabezado de pagina----------->
+<!--dentro de la etiqueta head esta el encabezado del documento html-->
+<head> 
+	<title>felxbox_01</title> <!--dentro de la etiqueta tittle esta el titulo de la página-->
+	<link rel='stylesheet' href='estilos.css'/> <!--dentro de esta etiqueta esta la referencia a la hoja de estilos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--viewport para trabajar responsive design-->
+</head>
+
+<!------------body de pagina----------->  
+<!--dentro de la estiqueta body tipicamente esta todo lo que contendra página-->
+<body> 
+
+
+	<!--dentro de la estiqueta header esta todo lo que sera el encanbezado de la página, pudiendo colocarse dentro del body o antes del body-->
+	<header class='menu-container' id="inicio">
+
+      <div class='identificador'>
+        <!----modificar nombre y ruta de la imagen para cambiar el logo por el propio----->
+       <img src="imagenes/logo.png">
+      </div>
+
+      <div class='ligas-secciones'>
+      	<!----modificar nombre de la seccion acorde a la necesidad----->
+          <a href="#secc1">Museo</a>
+          <a href="#secc2">Ponentes</a>
+          <a href="#secc3">Literatura</a>
+          <a href="#secc4">Documentales</a>
+        </div>
+
+    </header>
+
+ 
+
+
+	<!--contenedor que agrupa todos los contenedores que tienen los contenidos de cada sección que aprecen entre el encabezado y pie de pagina-->
+    <main class="secciones">
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc1">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+    			<br>
+    			<br>
+
+		        <h1>El museo</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Nos encontramos alojados en el Palacio del Louvre, una fortaleza del siglo XII que fue ampliada y reformada en diversas ocasiones. Antes de que se convirtiera en museo, algunos monarcas como Carlos V y Felipe II utilizaron el palacio como residencia real en la que acumulaban sus colecciones artísticas.El museo fue inaugurado a finales del siglo XVIII, Somos el museo más importante de Francia y uno de los más visitados del mundo. Actualmente recibimos a más de ocho millones de visitantes cada año. 
+</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		
+		        <br><!--etiqueta para un brinco de renglón-->
+            <p>Nuestra colección comprende cerca de 300.000 obras anteriores a 1948, de las que se exponen aproximadamente 35.000.
+Visítanos y deléitate con algunas de nuestras obras más destacadas:
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <br><!--etiqueta para un brinco de renglón-->
+           	<ul>
+               <li>La Gioconda de Leonardo da Vinci.</li>
+               <li>La Libertad Guiando al Pueblo de Delacroix.</li>
+               <li>Las Bodas de Caná de Veronés.</li>
+               <li>La Venus de Milo de la Antigua Grecia.</li> 
+               <li>El escriba sentado del Antiguo Egipto.</li> 
+               <li>La Victoria Alada de Samotracia.</li> 
+</ul>
+<br><!--etiqueta para un brinco de renglón-->
+
+  <h1>Festival Noches del Louvre</h1>
+
+<p>El Louvre es enorme, podrías pasar varios días recorriéndolo. Recomendamos visitarnos en octubre, así podrás vivir la experiencia de Las noches del Louvre, un festival lleno de arte y cultura. Planea tu visita, estaremos encantados de recibirte. </p>
+<br><!--etiqueta para un brinco de renglón-->
+<br><!--etiqueta para un brinco de renglón-->
+
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	      <a href="visualizador360.html">
+	      	<img  src="imagenes/img1a.png" title="Img 1">
+	      	
+	      </a>
+        		<!--texto para la imagen-->
+        		<p>Da clic sobre la imagen y recorre la bella explanada del Louvre.</p>
+        		</div>
+	      	
+	      </a>
+        		<br><!--etiqueta para un brinco de renglón-->
+
+
+<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img1b.png" title="img1b">
+        		<!--texto para la imagen-->
+        		<p>Asiste a nuestro Festival Noches del Louvre.</p>
+
+    			</div>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc2">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Ponentes</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		           <br><!--etiqueta para un brinco de renglón-->
+
+		        <h2>Jorge Guerra</h2>
+		        <p>Investigador del poder oculto y detective de la historia, dedicado a desentrañar los misterios y secretos que han moldeado el poder a lo largo de los siglos. Durante su amplia trayectoria se ha dedicado a investigar y analizar las fuerzas que han influido en los eventos más importantes de la historia. Su enfoque le permite explorar aspectos poco conocidos y ocultos, nos ofrece una visión alternativa y profunda de los eventos que han definido el mundo como lo conocemos.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <h2>Antony Sutton</h2>
+		        <p>Antony Sutton, controvertido economista e investigador británico que desafía las narrativas convencionales sobre la historia económica y política del siglo XX. Conocido por sus investigaciones sobre la relación entre las élites financieras y el desarrollo de la Unión Soviética, Sutton nos invita a cuestionar lo que sabemos sobre el poder, la guerra y la economía global. Conoce sus ideas provocadoras y su legado duradero en el análisis crítico de la historia moderna.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		
+            <h2>Marcelo Gullo</h2>
+		        <p>Conocido por su enfoque crítico y su profundo análisis de la realidad nacional e internacional, Gullo ha sido un ferviente defensor de la identidad y la soberanía de los pueblos latinoamericanos. A lo largo de su carrera, ha escrito numerosos libros y artículos que invitan a la reflexión y al debate, abordando temas como la historia, la política y la cultura.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <h2>Juan Manuel Zunzunegui</h2>
+		        <p>Destacado investigador cuya labor ha dejado una huella significativa en el campo del conocimiento. A lo largo de su carrera, Zunzunegui ha abordado temas complejos con una perspectiva innovadora. Su enfoque metódico y su dedicación a la investigación han permitido que sus hallazgos no solo enriquezcan la academia, sino que también tengan un impacto práctico en la vida cotidiana.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+    		<a href="https://drive.google.com/file/d/1HU1XEL-mjNkLgC7afWXljIgU4sb6D2ZL/view?usp=sharing">	
+        		<img  src="imagenes/img2.png" title="Img 2">
+
+        	</a>
+        		<!--texto para la imagen-->
+        		<p>Da clic en la imagen y conoce a nuestros ponentes.</p>
+    		</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc3">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Literatura</h1>
+		        <br><!--etiqueta para un brinco de renglón-->
+
+		        <h2>1984</h2>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Escrita por George Orwell, esta novela distópica a través de su poderosa prosa y su visión inquietante,  nos invita a reflexionar sobre el poder, la libertad y la naturaleza de la verdad. "1984" no solo es una advertencia sobre los peligros del totalitarismo, sino también una reflexión sobre la condición humana y la lucha por la autonomía en un mundo cada vez más controlado.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+
+		         <h2>Un mundo Feliz</h2>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>En su novela "Un mundo feliz”, Aldous Huxley nos transporta a una sociedad futurista donde la felicidad y la estabilidad son la norma, pero a un alto costo. En este mundo, los seres humanos son creados y condicionados para cumplir roles específicos, y la libertad individual es sacrificada en nombre de la paz y la conformidad. A través de personajes memorables y situaciones inquietantes, Huxley nos invita a reflexionar sobre el verdadero significado de la felicidad y las implicaciones de una sociedad que prioriza el control sobre la libertad.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+
+		        <h2>The Rape of the Mind</h2>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>En "The Rape of the Mind" de Joost Meerloo, se explora cómo los regímenes totalitarios y las sociedades opresivas pueden influir y controlar la mente humana. A través de un análisis profundo, el autor nos invita a reflexionar sobre la importancia de la libertad de pensamiento y cómo la manipulación puede afectar nuestra percepción de la realidad. </p>
+		        <br><!--etiqueta para un brinco de renglón-->
+
+		        <h2>Confesiones de un sicario económico</h2>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Escrito por John Perkins. Este libro, publicado por primera vez en 2004, es una obra impactante que nos ofrece una mirada profunda y crítica sobre el mundo de la economía global y la política internacional. En su libro, comparte su experiencia personal y profesional, revelando cómo se involucró en un sistema que, según él, manipula a países en desarrollo para beneficiarse a sí mismo y a las corporaciones multinacionales. </p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+
+    			<a href="https://drive.google.com/file/d/1bLduiP6tnKIeElQr8kBi7_spW8ce7b8n/view?usp=sharing">
+        		<img  src="imagenes/img3.png" title="Img 3">
+        	</a>
+
+        		<!--texto para la imagen-->
+
+
+        		<p>Da clic sobre la imagen y conoce a nuestros escritores y sus obras.</p>
+        		<br><!--etiqueta para un brinco de renglón-->
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc4">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Documentales</h1>
+		        <br><!--etiqueta para un brinco de renglón-->
+
+		        <h2>Land of the Blind</h2>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Dirigido por el talentoso cineasta y escritor, Joaquín Montalván. Este documental nos sumerge en un mundo donde la percepción y la realidad se entrelazan de maneras sorprendentes. A través de una narrativa cautivadora, Montalván explora la vida de personas que, a pesar de enfrentar desafíos significativos, encuentran formas únicas de ver y entender su entorno.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <h2>Zeitgeist</h2>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Este documental dirigido por Peter Joseph y estrenado en 2007, es una producción independiente que busca cuestionar las estructuras de poder, la historia oficial y los sistemas que rigen la sociedad moderna. A través de una narrativa provocadora y un montaje impactante, la película se divide en tres partes, abordando temas como la religión, los ataques del 11 de septiembre y el sistema financiero global.</p>
+		        <br>
+		         <h2>The Money: Los Amos del Dinero</h2>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>The Money: Los Amos del Dinero, se centra en la historia del dinero y las instituciones que lo manejan, mostrando cómo la deuda y la inflación son utilizadas como mecanismos de dominación. El documental desafía la narrativa oficial sobre la economía y propone alternativas para un sistema financiero más justo y equitativo. Su mensaje ha generado gran impacto entre aquellos que buscan comprender quiénes realmente controlan el dinero y cómo su poder influye en nuestras vidas.</p>
+		        <br>
+
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen-secc4">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+    			<a href="https://drive.google.com/file/d/1bvxtQ19do0zHS2kfOY9KnqDFfF47XWTt/view?usp=sharing">
+        		<img  src="imagenes/img4.png" title="Img 4">
+
+        	</a>
+
+        		<!--texto para la imagen-->
+        		<p>Da clic sobre la imagen y conoce más de estas inquietantes historias.</p>
+    		
+
+    </main>
+
+    <!------------pie de pagina----------->
+    <!--dentro de la etiqueta footer esta todo lo que sera el pie de página, pudiendo colocarse dentro del body o despues del body-->
+	<footer>
+	   
+	    <div class='footer-item'>
+	      <!----modificar el href para que dirija una pagina especifica de facebook----->
+	      <a href="https://www.facebook.com/">
+	      	<img src="imagenes/fbk.png" title="Facebook">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de twitter----->
+	      <a href="https://twitter.com/">
+	      	<img src="imagenes/twt.png" title="Twitter">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de instagram----->
+	      <a href="http://instagram.com/">
+	      	<img src="imagenes/inst.png" title="Instagram">
+	      </a>
+	    </div>
+
+	    <div class="copyright">
+	    	<!----modificarlo con datos o mensaje propio----->
+	      <p style="">Todos los derechos a sus respectivos autores</p>
+	    </div>
+	    
+	  </footer>
+	  
+	<!------------------------------------>
+
+	<!---------enlace que regresa al inicio de la pagina--------->
+	<!--dentro de la etiqueta "a" de tipo enlace esta la imagen que actua como icono que regresa al inicio de la página-->
+	    <a class="ir-arriba" title="Volver arriba" href="#inicio">
+	    	<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	      	<img src="imagenes/flecha-arriba.png">
+	     
+	    </a>
+
+</body>
+
+</html>
